@@ -1,10 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    Well hey there!!!
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<title>CompanionScape</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval' 'self' data: gap: https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *;">
+		<link rel="stylesheet" type="text/css" href="vendor/style.css">
+		<IE:clientCaps ID="oClientCaps"></IE:clientCaps>
+		<base />
+	</head>
+
+	<body class="ng-app">
+		<div class="sys-menu">
+			<div id="spacer"></div>
+			<div id="min-btn"></div>
+			<div id="max-btn"></div>
+			<div id="close-btn"></div>
+		</div>
+		<div class="logo"></div>
+		<div id="companion-welcome" class="modal" style="z-index: 1000;">
+			<div class="modal-body">
+				<h1>RSE CompanionScape</h1>
+				<div class="inner">
+					<p id="0">Server: Welcome to RuneScape!</p>
+					<p id="1">Zezima has logged out.</p>
+					<p id="2">Mod Mayhem: Heya.</p>
+					<p id="3">[M] Player361: Bank sale! Rune Armour Set 200k!</p>
+					<p id="4">[THESE MESSAGES ARE PREDEFINED IN THE HTML, CONCEPT ONLY.]</p>
+					<p id="5">&nbsp;</p>
+					<p id="6">&nbsp;</p>
+					<p id="7">&nbsp;</p>
+					<p id="8">&nbsp;</p>
+					<p id="9">&nbsp;</p>
+					<p id="10">&nbsp;</p>
+					<p id="11">&nbsp;</p>
+					<p id="12">&nbsp;</p>
+					<p id="13">&nbsp;</p>
+					<p id="14">P</p>
+					<p id="15">L</p>
+					<p id="16">A</p>
+					<p id="17">Y</p>
+					<p id="18">!</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="spinner" id="spin"></div>
+		<div class="footer">
+			<p>Footer</p>
+		</div>
+		<script type="text/javascript" src="vendor/renderer.js"></script>
+	</body>
 </html>
